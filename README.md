@@ -69,7 +69,7 @@ CREATE TABLE artworks (
     description TEXT,
     medium VARCHAR(100),
     price DECIMAL(10,2) NOT NULL,
-    image_url VARCHAR(255),
+    image_url TEXT,
     status ENUM('AVAILABLE','SOLD','IN_EXHIBITION') DEFAULT 'AVAILABLE',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (artist_id) REFERENCES users(user_id)
