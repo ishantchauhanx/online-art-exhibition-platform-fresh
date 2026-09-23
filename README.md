@@ -168,4 +168,4 @@ The separate Java GUI rubric is not applicable because this is a Servlet/JSP web
 
 ## Notes
 
-This is a complete starter project for academic evaluation and can be extended with additional modules like exhibition request forms, admin metrics, and order history dashboards.
+This project is a Java web-based Online Art Exhibition Platform developed for academic evaluation. It demonstrates Java OOP, JDBC, Servlets, JSP, MySQL database integration, authentication, role-based access, and artwork/exhibition management.
